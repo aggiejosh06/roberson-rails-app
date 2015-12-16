@@ -3,3 +3,22 @@
 @import "bootstrap";
 @import "font-awesome";
 
+/* NAVIGATION BAR */
+.navbar-inverse {
+	background-color: rgba(27,22,14,.9);
+}
+
+/* JUMBOTRON */
+.jumbotron {
+	background-color: #B4AEA1;
+
+}
+
+/* BODY */
+body {
+	background: url('cool-background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}

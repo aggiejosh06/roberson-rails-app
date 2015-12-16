@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   resources :contacts
   get '/about' => 'pages#about' #goes to pages controller with about action
+  get '/portfolio'=> 'pages#portfolio'
+  get '/services'=> 'pages#services' 
   root 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
