@@ -4,6 +4,11 @@
 @import "font-awesome";
 @import url(https://fonts.googleapis.com/css?family=Cabin:400,500);
 
+/* HTML */
+html body {
+	color: #FBFFFE;
+}
+
 /* NAVIGATION BAR */
 .navbar {
 	margin-bottom: 0px;
@@ -14,7 +19,7 @@
 }
 
 .navbar-brand {
-	font-family: cabin;
+	/* font-family: 'Crimson Test'; */
 	font-size: 25px;
 	line-height: 35px;
 	height: 70px;
@@ -24,7 +29,7 @@
 	line-height: 35px;
 	height: 70px;
 	font-size: 17px;
-	font-family: cabin;
+	/* font-family: cabin; */
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -36,11 +41,7 @@
 }
 
 /* JUMBOTRON */
-.jumbotron {
-	background-color: #B4AEA1;
-	margin-top: 20px;
 
-}
 
 /* BODY */
 article {
