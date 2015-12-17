@@ -14,8 +14,16 @@ html body {
 	margin-bottom: 0px;
 }
 
+.navbar-header {
+	padding-left: 60px;
+}
+
 .navbar-inverse {
 	background-color: rgba(27,22,14,.9);
+}
+
+.navbar-right {
+	margin-right: 60px;
 }
 
 .navbar-brand {
