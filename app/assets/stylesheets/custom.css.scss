@@ -8,6 +8,26 @@
 	background-color: rgba(27,22,14,.9);
 }
 
+.navbar-brand {
+	font-size: 25px;
+	line-height: 35px;
+	height: 70px;
+}
+
+.navbar-nav > li > a {
+	line-height: 35px;
+	height: 70px;
+	font-size: 17px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #FBFFFE;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #FBFFFE;	
+}
+
 /* JUMBOTRON */
 .jumbotron {
 	background-color: #B4AEA1;
