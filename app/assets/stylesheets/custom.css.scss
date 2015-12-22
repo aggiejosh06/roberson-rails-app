@@ -6,7 +6,7 @@
 
 /* HTML */
 html body {
-	color: #FBFFFE;
+	background-color: #FFF;
 }
 
 p {
@@ -23,7 +23,7 @@ p {
 }
 
 .navbar-inverse {
-	background-color: rgba(27,22,14,.9);
+	background-color: #262827;
 }
 
 .navbar-right {
@@ -31,7 +31,6 @@ p {
 }
 
 .navbar-brand {
-	/* font-family: 'Crimson Test'; */
 	font-size: 25px;
 	line-height: 35px;
 	height: 70px;
@@ -41,7 +40,6 @@ p {
 	line-height: 35px;
 	height: 70px;
 	font-size: 17px;
-	/* font-family: cabin; */
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -52,18 +50,16 @@ p {
 	color: #FBFFFE;	
 }
 
-/* JUMBOTRON */
-
-
 /* BODY */
 article {
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background: image-url('cool-background.jpg') no-repeat center center;
+	/* background: image-url('cool-background.jpg') no-repeat center center;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+  	*/
 }
