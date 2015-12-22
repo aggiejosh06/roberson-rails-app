@@ -3,11 +3,28 @@
 }
 
 .portfolio-gallery {
-	/* background-color: white;*/
+	display: block;
 }
 
 .image-box {
-	height: 100px;
-	width: 100px;
-	background-color: white;
+	width: 33%;
+	padding: 25px 0px 15px 0px;
+
+
+}
+
+.image-cell {
+	padding-bottom: 10px;
+	color: black;
+	text-align: center;
+}
+
+.image-title {
+	text-align: center;
+	color: black;
+
+}
+
+.hide {
+	display: none;
 }

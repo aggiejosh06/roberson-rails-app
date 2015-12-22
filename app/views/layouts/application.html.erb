@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -35,5 +36,8 @@
   <%= yield %>
 </div>
 </article>
+<script>
+  var h = $('.container');
+</script>
 </body>
 </html>
